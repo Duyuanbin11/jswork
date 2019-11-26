@@ -1,7 +1,7 @@
 //定义年历生成函数
 function calender (y) {
     //获取指定年份1月1日的星期数值
-    var w = new Data(y,0).getDay();
+    var w = new Date(y,0).getDay();
 
     var html = '<div class = "box">';
 
