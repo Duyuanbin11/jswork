@@ -15,5 +15,5 @@ function setCalendar(year){
     document.getElementById('curyear').innerText = year
     document.getElementById('preyear').innerText = "<<"+pre
     document.getElementById('nextyear').innerText = next+ ">>"
-    document.getElementById("cal").innerHTML = calender(year)
+    document.getElementById("cal").innerHTML = calendar(year)
 }

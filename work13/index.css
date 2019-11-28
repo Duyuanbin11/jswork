@@ -3,25 +3,25 @@ body{
 }
 
 .box{
-    font-family:Tahoma,simsun;
-    font-size:  12px;
-    border: 1px solid #1678be;
+    font-family: Tahoma,simsun;
+    font-size: 12px;
+    border: 1px solid #1678BE;
     display: table;
     margin: 0 auto;
-
 }
 
 .box-head{
-    padding: 5px 20px;
-    background-color: #2487c9;
+    padding: 5px 20px ;
+    background-color: #2487C9;
     color: #fff;
     font-size: 14px;
 }
+
 .box-body{
     padding: 10px 20px;
 }
 
-.box-body th {
+.box-body th{
     font-weight: normal;
     vertical-align: top;
     padding-top: 5px;
@@ -32,37 +32,37 @@ body{
     padding-bottom: 8px;
 }
 
-.box-body-select {
-    font-family: tahoma, simsun;
+.box-body select{
+    font-family: Tahoma,simsun;
     font-size: 12px;
     padding: 2px 5px;
     cursor: pointer;
 }
 
-.box-body label {
+.box-body label{
     margin-right: 5px;
     cursor: pointer;
 }
 
-.box-body label input {
+.box-body label input{
     cursor: pointer;
 }
 
-.box-body input {
+.box-body input{
     vertical-align: middle;
-    font-family: Tahoma; simsun;
-    font-size: 12px;
+    font-family: Tahoma,simsun;
+    font-size:12px;
 }
 
-.box-body input [type = text]{
+.box-body input[type=text]{
     padding: 2px;
 }
 
-.box-body input[type = radio]{
+.box-body input[type=radio]{
     margin-top: -1px;
 }
 
-.box-body input[type = submit]{
-    padding: 4px 5px;
+.box-body input[type=submit]{
+    padding: 4px 15px;
     cursor: pointer;
 }
