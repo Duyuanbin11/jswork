@@ -27,3 +27,6 @@ table{
     margin: 10px;
     font-family: arial;
 }
+th{
+    background: gray;
+}
