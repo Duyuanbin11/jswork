@@ -1,19 +1,16 @@
-let time = new Date()
-let m = s = 0;
-m = 59 - time.getMinutes()
-s = 59 - time.getSeconds()
+new Date()let time = 
+let mit = sit = 0;
+mit  = 59 - time.getMinutes()
+sit = 59 - time.getSeconds()
 let id0 =setInterval(seckill,1000)
 
 function seckill() {
-    s--
-    if(s == -1){
-        s = 59
-        m--
+    sit--
+    if(sit == -1){
+    sit = 59
+    mit--} 
+    if(mit == -1){mit = 59
     } 
-    if(m == -1){
-        m = 59
-    } 
-   
-    document.getElementById('m').innerHTML=m +'分'
-    document.getElementById('s').innerHTML = s +'秒'
+    document.getElementById('mit').innerHTML=mit +'分'
+    document.getElementById('sit').innerHTML = sit +'秒'
 }
