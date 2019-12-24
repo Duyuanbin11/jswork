@@ -21,7 +21,7 @@ document.getElementById('upload').onclick = function (){
             }
             let reg=/^http(s)?:\/\/(,*?)\/\// //提取服务器域名
             let downurl =xhr.responseURL.match(reg) [0]+name.slice(2,name.length-1)
-            down.innerHTML = `文件上传成功。<a href=${name}>下载文件${name}</a>`; //使用模板字符串和变量替换${}
+            down.innerHTML = `文件上传成功。<a href=${name}>下载文件${name}</a>` //使用模板字符串和变量替换${}
         }
     };
     xhr.open('POST', 'http://139.9.81.203:8090/upload');
