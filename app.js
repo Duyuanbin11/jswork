@@ -23,10 +23,8 @@ var storage = multer.diskStorage({
         cb(null,file.fieldname + '-' + Data.now() + ".")
     }    
 
-
-
 })
-
+//npm i multer -s
 let ajaxData = []
 let count = 0
 app.post('/ajax',function (req,res) {
