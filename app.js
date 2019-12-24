@@ -35,20 +35,7 @@ app.post('/formBuilder', function (req, res)  {
     res.send(req.body)
 })
 
-app.use(express.static('../uploads'))
-const multer = require('multer')
-var storage = multer.diskStorage({
-    //设置上传后文件路径，会自动创建一个upload目录，与jswork同级目录。
-    destination:function(req,file,cb) {
-        cb(null,'../uploads')
-    },
-    //给上传文件重命名，获取添加后缀名
-    filename:function(req,file,cb) {
-        var fileFormat = (file.originalname).split(".");
-        cb(null,file.fieldname + '-' + Data.now() + ".")
-    }    
 
-})
 
 let ajaxData = []
 let count = 0
